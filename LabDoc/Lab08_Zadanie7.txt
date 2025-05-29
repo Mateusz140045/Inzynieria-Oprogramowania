@@ -1,0 +1,19 @@
+1) Agregacja
+class A {
+	public void fA(){}
+};
+class B {
+	public void fB(){}
+	private A*pa;
+};
+void main(){}
+
+2) Kompozycja
+class Punkt() {};
+class Kolo() {
+	private:
+		double PromienKola;
+		Punkt SrodekKola;
+	public: void WstawSrodek() {}
+}
+void main() {}
